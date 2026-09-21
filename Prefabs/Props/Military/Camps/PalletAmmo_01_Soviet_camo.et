@@ -1,0 +1,12 @@
+GenericEntity : "{47A2F2F3C8FAACD5}Prefabs/Props/Military/Camps/PalletAmmo_01_Soviet.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66F816F81724411B}" {
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+   }
+  }
+ }
+}

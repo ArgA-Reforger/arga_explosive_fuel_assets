@@ -1,0 +1,16 @@
+GenericEntity : "{DFF391458A7AC773}Prefabs/Props/Military/WaterTanks/MobileWaterTank_US_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{61F2A96BAE15C474}" {
+   Enabled 1
+   m_fBaseHealth 1300
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{61F2A963BEA66747}" {
+     m_Prefabs + {
+      "{6BB2F747B4896E02}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small.et" "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+     }
+    }
+   }
+  }
+ }
+}

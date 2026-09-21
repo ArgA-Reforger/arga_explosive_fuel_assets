@@ -1,0 +1,26 @@
+SCR_DestructibleBuildingEntity : "{AB9840CD694B453E}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_Base.et" {
+ ID "51BA8ACAAA6EE939"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" {
+   m_SecondaryExplosions SCR_SecondaryExplosions "{66F67633CA82D05D}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F67633CDF4BFDB}" {
+      m_eSecondaryExplosionType FUEL
+      m_eResourceType SUPPLIES
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{66F67633CEB9EF31}" {
+        m_eSecondaryExplosionScale MASSIVE
+        m_sSecondaryExplosionPrefab "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+        m_sSecondaryFireParticles "{20541EDA53B413EA}Particles/Logistics/Explosion/Fuel/Explosion_Fuel_Huge.ptc"
+       }
+       SCR_SecondaryExplosion "{67036C2DD117AA53}" {
+        m_sSecondaryExplosionPrefab "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et"
+        m_sSecondaryFireParticles "{9207E2163767FF9D}Particles/Logistics/Explosion/Ammo_Rack/Explosion_Ammo_Rack_Large.ptc"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

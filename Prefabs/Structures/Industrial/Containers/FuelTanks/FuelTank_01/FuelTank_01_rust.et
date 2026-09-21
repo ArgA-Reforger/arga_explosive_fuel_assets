@@ -1,0 +1,18 @@
+SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" {
+   m_SecondaryExplosions SCR_SecondaryExplosions "{66F6763253D6FFDA}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F6763248974629}" {
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{66F676324E6F6A3E}" {
+        m_sSecondaryFireParticles "{69766E33781FC23F}Particles/Logistics/Explosion/Fuel/Explosion_Fuel_Large.ptc"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

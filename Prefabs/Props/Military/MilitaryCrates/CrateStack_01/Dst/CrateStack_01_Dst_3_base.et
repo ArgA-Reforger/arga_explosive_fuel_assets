@@ -1,0 +1,20 @@
+GenericEntity : "{7F59A8D992FBF5CA}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 800
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5A8A9D296E9CA581}" {
+     m_ModelPrefabs + {
+      "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et" "{4ECD052D436C820D}Prefabs/Weapons/Warheads/Warhead_HEAT_PG7VR.et" "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+     }
+    }
+    SCR_PrefabSpawnable "{5A8C8B22AE085375}" {
+     m_Prefabs {
+      "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+     }
+    }
+   }
+  }
+ }
+}

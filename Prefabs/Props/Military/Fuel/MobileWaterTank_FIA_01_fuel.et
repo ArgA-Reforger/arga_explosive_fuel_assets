@@ -1,0 +1,18 @@
+GenericEntity : "{8F71C70CFB73B505}Prefabs/Props/Military/WaterTanks/MobileWaterTank_USSR_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{61F2A96BAE15C474}" {
+   Enabled 1
+   m_fBaseHealth 1300
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{61F2A97F44900791}" {
+     m_Prefabs + {
+      "{E8FF2FD6E1EF4C37}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Small.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et" "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_HUGE
+   m_iMinimumBurningState SMOKING_HEAVY
+  }
+ }
+}

@@ -1,0 +1,41 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     MaxHealth 3000
+    }
+   }
+   m_SecondaryExplosions SCR_SecondaryExplosions "{66F6763253D6FFDA}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F6763248974629}" {
+      m_eSecondaryExplosionType FUEL
+      m_eResourceType SUPPLIES
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{66F676324E6F6A3E}" {
+        m_sSecondaryExplosionPrefab "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+        m_sSecondaryFireParticles "{69766E33781FC23F}Particles/Logistics/Explosion/Fuel/Explosion_Fuel_Large.ptc"
+       }
+      }
+     }
+    }
+   }
+   m_SecondaryFires SCR_SecondaryExplosions "{66F676321ECE8B93}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F6763211B28DC2}" {
+      m_eSecondaryExplosionType FUEL
+      m_eResourceType SUPPLIES
+     }
+    }
+   }
+   m_aEffects {
+    SCR_TimedSound Sound_Metal_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{6152D9E7BD6FB828}" {
+      m_sSoundProject "{9D94BEBA8AA8A997}Sounds/Particles/Logistics/Explosion/Fuel/Particles_Explosions_Fuel_Large.acp"
+     }
+    }
+   }
+  }
+ }
+}

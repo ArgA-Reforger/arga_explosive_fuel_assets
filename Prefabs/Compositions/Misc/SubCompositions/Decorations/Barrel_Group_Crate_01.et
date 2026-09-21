@@ -1,0 +1,24 @@
+GenericEntity : "{FBEF0DDE64A1B1A0}Prefabs/Compositions/Slotted/SubComposition.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5D9B05DCAB2C9D93}" {
+   m_fBaseHealth 800
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{66F6763AA441143D}" {
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+    SCR_DebrisSpawnable "{66F6763B5B161234}" {
+     m_ModelPrefabs {
+      "{B7C039735B4254A5}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Medium.et" "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et"
+     }
+     m_eMaterialSoundType METAL_HUGE
+    }
+    SCR_PrefabSpawnable "{66F6763B5C46A056}" {
+     m_Prefabs {
+      "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et" "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+     }
+    }
+   }
+  }
+ }
+}

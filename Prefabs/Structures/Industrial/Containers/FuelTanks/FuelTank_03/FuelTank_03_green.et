@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{CDEFEE1847C0933A}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F6FCB40777}" {
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{5D7A75D0C798D584}" {
+    m_sSoundProject "{9D94BEBA8AA8A997}Sounds/Particles/Logistics/Explosion/Fuel/Particles_Explosions_Fuel_Large.acp"
+   }
+  }
+ }
+}

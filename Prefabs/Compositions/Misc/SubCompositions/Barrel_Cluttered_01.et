@@ -1,0 +1,34 @@
+GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+ ID "52F07DE17573BB0C"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 800
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{5EAEA7532D5C4CA5}" {
+    }
+    SCR_DebrisSpawnable "{668493AFE248EFDD}" {
+     m_ModelPrefabs {
+      "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et" "{E8FF2FD6E1EF4C37}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Small.et" "{F8DFA475BC5A3B7C}Prefabs/Weapons/Warheads/Warhead_Grenade_RGD5.et"
+     }
+    }
+    SCR_PrefabSpawnable "{66F67625CFD089A0}" {
+     m_Prefabs {
+      "{E8FF2FD6E1EF4C37}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Small.et" "{6BB2F747B4896E02}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small.et" "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{A606E8A16DB9518A}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small_Sound.et"
+     }
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "570283CDB3C7BEA2"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 1
+     m_fBaseHealth 25
+    }
+   }
+  }
+ }
+}

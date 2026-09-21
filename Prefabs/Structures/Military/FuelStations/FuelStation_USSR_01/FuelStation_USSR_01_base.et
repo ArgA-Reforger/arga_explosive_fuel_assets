@@ -1,0 +1,33 @@
+GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingParts_Base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+     "Kinetic multiplier" 0
+     "Incendiary multiplier" 50
+    }
+   }
+   m_fBaseHealth 650
+   Enabled 1
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{66F67630F99AFE67}" {
+     m_Particle "{98299D0E34CFBB62}Particles/Props/Dest_Prop_Metal_Large.ptc"
+    }
+    SCR_DebrisSpawnable "{66F67630ED3E44CA}" {
+     m_ModelPrefabs {
+      "{E8FF2FD6E1EF4C37}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Small.et" "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et" "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et"
+     }
+    }
+    SCR_PrefabSpawnable "{66F67630FA3F1230}" {
+     m_Prefabs {
+      "{6BB2F747B4896E02}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small.et" "{A606E8A16DB9518A}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small_Sound.et" "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et"
+     }
+    }
+   }
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
+  }
+ }
+}

@@ -1,0 +1,28 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   m_fBaseHealth 800
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{66F816F812148EEF}" {
+     m_Particle "{DF37052C79C48ADB}Particles/Blasts/Blast_big_wood.ptc"
+    }
+    SCR_DebrisSpawnable "{66F816F81724411B}" {
+     m_ModelPrefabs {
+      "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et" "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et" "{6B8EE808E69A69E0}Prefabs/Weapons/Warheads/Warhead_Shell_HE_M821.et"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+    SCR_PrefabSpawnable "{66F816F80971FB7C}" {
+     m_Prefabs {
+      "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+}

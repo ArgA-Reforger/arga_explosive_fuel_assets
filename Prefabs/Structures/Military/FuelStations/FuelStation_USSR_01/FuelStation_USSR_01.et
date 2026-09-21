@@ -1,0 +1,26 @@
+GenericEntity : "{723EF3FD26712835}Prefabs/Structures/Military/FuelStations/FuelStation_USSR_01/FuelStation_USSR_01_base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+     "Kinetic multiplier" 0
+     "Incendiary multiplier" 50
+    }
+   }
+   m_fBaseHealth 650
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{660C8B4F435E79A7}" {
+     m_ModelPrefabs + {
+      "{6BB2F747B4896E02}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small.et" "{BD25277C883BF4DC}Prefabs/Weapons/Warheads/Warhead_Mine_TM62M.et" "{4ECD052D436C820D}Prefabs/Weapons/Warheads/Warhead_HEAT_PG7VR.et"
+     }
+    }
+    SCR_PrefabSpawnable "{660C8B4F34E833E5}" {
+     m_Prefabs {
+      "{7E091BB73AC18ED0}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et" "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et"
+     }
+    }
+   }
+  }
+ }
+}

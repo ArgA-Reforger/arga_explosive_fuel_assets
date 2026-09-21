@@ -1,0 +1,43 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F6FCB40777}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     MaxHealth 7500
+    }
+   }
+   m_SecondaryExplosions SCR_SecondaryExplosions "{66F67633F4AD23BC}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F67633F7AF6223}" {
+      m_eSecondaryExplosionType FUEL
+      m_eResourceType SUPPLIES
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{66F67633EAEE3693}" {
+        m_eSecondaryExplosionScale MASSIVE
+        m_sSecondaryExplosionPrefab "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+        m_sSecondaryFireParticles "{20541EDA53B413EA}Particles/Logistics/Explosion/Fuel/Explosion_Fuel_Huge.ptc"
+       }
+       SCR_SecondaryExplosion "{67036C2DEEE30B36}" {
+        m_sSecondaryExplosionPrefab "{BCE4E0823FCFBCB7}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Large.et"
+        m_sSecondaryFireParticles "{2E8B5767FDBED4A1}Particles/Logistics/Explosion/Ammo_Rack/Explosion_Ammo_Rack_Medium.ptc"
+       }
+      }
+     }
+    }
+   }
+   m_aEffects {
+    SCR_TimedSound Sound_Metal_01_PreStart {
+    }
+    SCR_TimedSound explosion {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{670400F5B1272F8E}" {
+      m_sSoundProject "{9D94BEBA8AA8A997}Sounds/Particles/Logistics/Explosion/Fuel/Particles_Explosions_Fuel_Large.acp"
+     }
+    }
+   }
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{5D7A75D0C798D584}" {
+    m_sSoundProject "{87E0968F67279DFE}Sounds/Weapons/Explosives/_SharedData/Weapons_Explosives_ATMine_Generic.acp"
+   }
+  }
+ }
+}

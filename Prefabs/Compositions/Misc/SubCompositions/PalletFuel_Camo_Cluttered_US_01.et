@@ -1,0 +1,42 @@
+GenericEntity {
+ ID "5A5AD0D1B9F7CF0B"
+ components {
+  SCR_DestructionMultiPhaseComponent "{66F816FCDD605100}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     "Kinetic multiplier" 0
+     "Incendiary multiplier" 50
+    }
+   }
+   m_fBaseHealth 370
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{66F816FCD25E15F2}" {
+     m_Particle "{71561DB4CC756249}Particles/Blasts/Blast_medium_metal.ptc"
+    }
+    SCR_DebrisSpawnable "{66F816FCD56B67CC}" {
+     m_ModelPrefabs {
+      "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et" "{6B8EE808E69A69E0}Prefabs/Weapons/Warheads/Warhead_Shell_HE_M821.et" "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+     }
+    }
+    SCR_PrefabSpawnable "{66F816FCD4CA0E72}" {
+     m_Prefabs {
+      "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{8BC4C95E01FC9BD3}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Large.et" "{490CCFCB2ACC99CF}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Medium_Sound.et"
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_HUGE
+   m_iMinimumBurningState SMOKING_HEAVY
+  }
+ }
+ {
+  GenericEntity {
+   ID "5A5AD0D1B9F7CF1D"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 1
+     m_fBaseHealth 25
+    }
+   }
+  }
+ }
+}

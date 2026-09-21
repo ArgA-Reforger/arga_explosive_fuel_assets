@@ -1,0 +1,26 @@
+GenericEntity : "{4D869EE5C19F98D9}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_tankpistol_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+     "Kinetic multiplier" 0
+     "Incendiary multiplier" 50
+    }
+   }
+   m_fBaseHealth 650
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6450CB4DCD17BCC7}" {
+     m_ModelPrefabs + {
+      "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et" "{F8DFA475BC5A3B7C}Prefabs/Weapons/Warheads/Warhead_Grenade_RGD5.et" "{F5D96D52DC3251F6}Prefabs/Weapons/Warheads/Warhead_Shell_HE_O832DU.et"
+     }
+    }
+    SCR_PrefabSpawnable "{6450CB4CD255BFEC}" {
+     m_Prefabs + {
+      "{6BEC092D354A997E}Prefabs/Weapons/Warheads/Explosions/Warhead_Explosion_Base.et" "{B7C039735B4254A5}Prefabs/Weapons/Warheads/Explosions/Explosion_Fuel_Medium.et" "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+     }
+    }
+   }
+  }
+ }
+}

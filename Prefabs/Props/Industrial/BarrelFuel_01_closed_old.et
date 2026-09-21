@@ -1,0 +1,14 @@
+GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+ ID "52F07DE17573BA1F"
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{668493AFE248EFDD}" {
+     m_ModelPrefabs + {
+      "{A606E8A16DB9518A}Prefabs/Weapons/Warheads/Explosions/Explosion_AmmoRack_Small_Sound.et"
+     }
+    }
+   }
+  }
+ }
+}

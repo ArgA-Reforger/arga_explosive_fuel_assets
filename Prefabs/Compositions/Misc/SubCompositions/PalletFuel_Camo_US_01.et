@@ -1,0 +1,8 @@
+GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{6270A322F58B08A8}" {
+   m_fBaseHealth 1200
+  }
+ }
+}

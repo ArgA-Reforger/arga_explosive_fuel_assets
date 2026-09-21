@@ -1,0 +1,25 @@
+SCR_DestructibleBuildingEntity : "{C7A59DCCFF7BF19F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+ ID "51BA89020930D32D"
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" {
+   m_SecondaryExplosions SCR_SecondaryExplosions "{66F6763312E95260}" {
+    m_aSecondaryExplosionTypes {
+     SCR_SecondaryExplosionType "{66F6763315FC71E0}" {
+      m_eSecondaryExplosionType FUEL
+      m_eResourceType SUPPLIES
+      m_aSecondaryExplosions {
+       SCR_SecondaryExplosion "{66F676330B50E7C9}" {
+        m_sSecondaryExplosionPrefab "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+        m_sSecondaryFireParticles "{2E8B5767FDBED4A1}Particles/Logistics/Explosion/Ammo_Rack/Explosion_Ammo_Rack_Medium.ptc"
+       }
+       SCR_SecondaryExplosion "{67036C2ECC5E6A98}" {
+        m_sSecondaryExplosionPrefab "{B4569479BFB3DBA2}Prefabs/Weapons/Warheads/Explosions/Cinematic_Explosion.et"
+        m_sSecondaryFireParticles "{9207E2163767FF9D}Particles/Logistics/Explosion/Ammo_Rack/Explosion_Ammo_Rack_Large.ptc"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

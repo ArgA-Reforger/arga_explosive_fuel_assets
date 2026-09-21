@@ -21,3 +21,6 @@ config.json.prod
 
 # Arma Reforger Tool cache
 .atl/
+
+# Workbench resource database (regenerated)
+resourceDatabase.rdb

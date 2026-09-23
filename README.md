@@ -9,7 +9,7 @@ Workshop: https://reforger.armaplatform.com/workshop/6A6ADA80E3924FC3-ArgaExplos
 
 ## English
 
-A rebalanced version of SH Explosive Fuel Assets that makes fuel-related props explode in a more realistic and predictable way. Damage values were calibrated in-game from measured 5.56 hit counts instead of nominal ammo values.
+A rebalanced version of ***SH Explosive Fuel Assets*** that makes fuel-related props explode in a more realistic and predictable way. Damage values were calibrated in-game from measured 5.56 hit counts instead of nominal ammo values.
 
 ### What changed
 
@@ -41,7 +41,7 @@ A rebalanced version of SH Explosive Fuel Assets that makes fuel-related props e
 
 ## Español
 
-Una versión rebalanceada de SH Explosive Fuel Assets que hace que los props relacionados con combustible exploten de forma más realista y predecible. Los valores de daño se calibraron en el juego a partir de la cantidad de impactos de 5.56 medidos, en lugar de los valores nominales de la munición.
+Una versión rebalanceada de ***SH Explosive Fuel Assets*** que hace que los props relacionados con combustible exploten de forma más realista y predecible. Los valores de daño se calibraron en el juego a partir de la cantidad de impactos de 5.56 medidos, en lugar de los valores nominales de la munición.
 
 ### Qué cambió
 

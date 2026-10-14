@@ -24,3 +24,7 @@ config.json.prod
 
 # Workbench resource database (regenerated)
 resourceDatabase.rdb
+
+# NTFS junction into .agents/reforger-agent-skills/skills — regenerate with:
+# New-Item -ItemType Junction -Path .agents\skills -Target (Resolve-Path .agentseforger-agent-skills\skills)
+.agents/skills/
